@@ -1,7 +1,5 @@
-import { Provider } from "jotai";
+import { Provider } from 'jotai'
 
-const JotaiProvider = ({ children }: { children: React.ReactNode }) => {
-  return <Provider>{children}</Provider>;
-};
+const JotaiProvider = ({ children }: { children: React.ReactNode }) => <Provider>{children}</Provider>
 
-export default JotaiProvider;
+export default JotaiProvider

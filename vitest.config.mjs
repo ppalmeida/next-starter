@@ -12,13 +12,13 @@ export default defineConfig({
   plugins: [tsconfigPaths(), react()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src')
-    }
+      '@': resolve(__dirname, './src'),
+    },
   },
   test: {
     environment: 'jsdom',
     globals: true,
     setupFiles: [resolve(__dirname, './src/tests/tests-setup.tsx')],
     include: ['**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
-  }
+  },
 })
