@@ -1,0 +1,20 @@
+{
+    "editor.fontFamily": "'Victor Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+
+    // Editor general settings
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "selection",
+    "editor.wordWrap": "off",
+
+    // File settings
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    // Terminal settings
+    "terminal.integrated.fontFamily": "'Victor Mono'",
+    "terminal.integrated.fontSize": 13
+}

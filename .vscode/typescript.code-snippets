@@ -1,0 +1,23 @@
+{
+    "React Query Prefetch": {
+        "prefix": "prefetch",
+        "body": [
+            "const queryClient = new QueryClient();",
+            "",
+            "await queryClient.prefetchQuery({",
+            "  queryFn: ${1:() => Promise.resolve([])},",
+            "  queryKey: ${2:() => ['query-key']},",
+            "});"
+        ],
+        "description": "Prefetch query with React Query",
+        "scope": "typescript,typescriptreact"
+    },
+    "React Query Hydrate": {
+        "prefix": "hydrate",
+        "body": [
+            "<HydrationBoundary state={dehydrate(queryClient)}>",
+            "  $1",
+            "</HydrationBoundary>"
+        ],
+    }
+}
