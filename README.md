@@ -4,7 +4,7 @@ This is a starter kit to small projects and pocs. It will offer you some configu
 
 ## Stack
 
-- NextJS: https://nextjs.org/docs
+- [NextJS](https://nextjs.org/docs)
 - [ReactQuery](https://tanstack.com/query/latest/docs/framework/react/overview)
   - For NextJS App Router [use this config](https://tanstack.com/query/latest/docs/framework/react/guides/advanced-ssr#initial-setup)
   - For dehydrate data, check [here](https://tanstack.com/query/latest/docs/framework/react/guides/advanced-ssr#prefetching-and-dehydrating-data) - a little bit down for `app router`
